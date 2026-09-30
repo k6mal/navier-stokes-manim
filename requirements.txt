@@ -1,0 +1,6 @@
+# manim, numpy and scipy are what the film and the solver actually need.
+# matplotlib is only used by the two scratch benchmark scripts.
+manim==0.20.1
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2

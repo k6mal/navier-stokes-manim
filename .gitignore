@@ -1,0 +1,16 @@
+# isolated interpreter (see README: the system conda cannot import manim)
+.venv/
+
+# baked simulation frames - ~1 GB, regenerate with `python bake.py all`
+cache/
+
+# manim scratch output and rendered scenes
+media/
+
+# concatenated films - build with `python build.py -q h`
+out/
+
+logs/
+__pycache__/
+*.pyc
+.DS_Store
